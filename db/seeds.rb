@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
@@ -8,8 +10,8 @@
 
 puts 'Seeding'
 
-Greeting.create(message:'Hola amigo')
-Greeting.create(message:'Nice to see you again')
-Greeting.create(message:'Welcome my friend')
-Greeting.create(message:'Hello and welcome')
-Greeting.create(message:'Shalom haver')
+Greeting.create(message: 'Hola amigo')
+Greeting.create(message: 'Nice to see you again')
+Greeting.create(message: 'Welcome my friend')
+Greeting.create(message: 'Hello and welcome')
+Greeting.create(message: 'Shalom haver')
